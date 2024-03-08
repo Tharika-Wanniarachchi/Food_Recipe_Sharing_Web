@@ -75,3 +75,46 @@ nav .profile {
     display: none;
 }
 
+
+/* *********** cover section *********** */
+.cover-image {
+    background-image: url('images/coverback.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+.cover-image::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3c075309;
+}
+
+.cover-content {
+    font-family: 'Macondo';
+    margin-top: 30%;
+    font-size: 45px !important;
+}
+
+.cover-image .btn-style {
+    background: linear-gradient(to right, #FDC9ED, #910A67, #3C0753);
+    border-radius: 50px;
+    border: none;
+    padding: 10px 50px;
+    margin-top: 100px;
+    margin-left: 60%;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-size: 17px;
+}
