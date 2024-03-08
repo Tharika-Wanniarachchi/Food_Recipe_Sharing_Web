@@ -118,3 +118,69 @@ nav .profile {
     color: #fff;
     font-size: 17px;
 }
+
+/* *********************Secondary tab************************** */
+.title-style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #910A67;
+
+
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #3C0753 !important;
+    font-family: 'poppins';
+    margin-top: 20px;
+    z-index: -1;
+
+
+}
+
+.nav-link:hover {
+    color: #910A67 !important;
+   
+}
+
+.nav-link.active {
+    position: relative;
+    color: #910A67
+}
+
+.nav-link.active:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7px;
+    background: linear-gradient(to right, #FDC9ED, #910A67, #3C0753);
+}
+
+.img_s {
+    width: 200px !important;
+
+}
+
+.con-style {
+    background-color: #f9d5efa3;
+
+}
+
+.cd-style {
+    background: #b2b0b14e !important;
+    border-radius: 20px 20px 5px 5px !important;
+    z-index: 0;
+}
+
+.cd-style:hover {
+    background: #f9d5efa3 !important;
+    border-radius: 20px 20px 5px 5px !important;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    opacity: 1.3;
+    z-index: 0;
+}
